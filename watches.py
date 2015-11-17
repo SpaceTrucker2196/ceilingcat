@@ -13,6 +13,7 @@ while True:
     orientation = sense.get_orientation_degrees()
     rawMag = sense.get_compass_raw()
 
+    print("____________________________________________________________________"
     print("Temperature: %s C" % temp)
     print("Humidity: %s %%rH" % humidity)
     print("Pressure: %s Millibars" % pressure)
