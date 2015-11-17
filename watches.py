@@ -24,5 +24,5 @@ while True:
 
     sense.set_pixels(pixels)
 
-    time.sleep(60)
+    time.sleep(10)
 
