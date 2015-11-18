@@ -22,7 +22,7 @@ while True:
     print("Magnetometer x: {x}, y: {y}, z: {z}".format(**rawMag))
     print("Orientation: p: {pitch}, r: {roll}, y: {yaw}".format(**orientation))
     
-    log_record = "%s temp=%s humidity=%s pressure=%s" (timestamp,temp,humidity,pressure)
+    log_record = "%s temp=%s humidity=%s pressure=%s" % (timestamp,temp,humidity,pressure)
     print("%s", log_record)
 
     pixels = [red if i < temp else blue for i in range(64)]
